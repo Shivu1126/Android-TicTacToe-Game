@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TicTacTeoGame</string>
+
+    <string name="pick_mark">PICK PLAYER 1\'S MARK</string>
+    <string name="remember">REMEMBER: X GOES FIRST</string>
+    <string name="single_player_button_txt">SINGLE PLAYER( vs BOT)</string>
+    <string name="duo_player_button_txt">DUO PLAYER</string>
+    <string name="turn">TURN</string>
+    <string name="x_score">\'X\'s SCORE</string>
+    <string name="o_score">\'O\'s SCORE</string>
+    <string name="tie_score">TIES</string>
+</resources>
