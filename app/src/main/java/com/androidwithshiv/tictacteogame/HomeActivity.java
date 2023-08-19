@@ -57,6 +57,7 @@ public class HomeActivity extends AppCompatActivity {
         singlePlayerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.d("single", "clicked");
                 if(playerChoose == null || playerChoose.equals("")){
                     Common.showToast("Please choose 'X' OR 'O'", HomeActivity.this);
                 }
@@ -71,6 +72,7 @@ public class HomeActivity extends AppCompatActivity {
         duoPlayerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.d("duo", "clicked");
                 Log.d("duo", "clicked");
                 if(playerChoose == null || playerChoose.equals("")){
                     Common.showToast("Please choose 'X' OR 'O'", HomeActivity.this);
