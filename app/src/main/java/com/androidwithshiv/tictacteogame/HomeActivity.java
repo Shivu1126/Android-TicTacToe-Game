@@ -7,6 +7,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 
@@ -70,6 +71,7 @@ public class HomeActivity extends AppCompatActivity {
         duoPlayerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.d("duo", "clicked");
                 if(playerChoose == null || playerChoose.equals("")){
                     Common.showToast("Please choose 'X' OR 'O'", HomeActivity.this);
                 }
