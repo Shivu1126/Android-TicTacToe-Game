@@ -9,4 +9,8 @@
     <string name="x_score">\'X\'s SCORE</string>
     <string name="o_score">\'O\'s SCORE</string>
     <string name="tie_score">TIES</string>
+    <string name="you_win">YOU WIN!</string>
+    <string name="you_lose">YOU LOSE!</string>
+    <string name="x_win">\'X\' is WIN!</string>
+    <string name="o_win">\'O\' is WIN!</string>
 </resources>

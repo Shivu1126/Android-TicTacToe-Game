@@ -18,4 +18,6 @@
     <color name="x_color_dark">#004665</color>
     <color name="game_button_color_dark">#1C1F27</color>
     <color name="game_button_color">#353E51</color>
+    <color name="golden">#FFAD00</color>
+    <color name="lose">#C81F1F</color>
 </resources>

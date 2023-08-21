@@ -550,18 +550,29 @@ public class GameActivity extends AppCompatActivity {
         Log.d("WinningMark", winningMark);
         if(winningMark.equals("x")){
             Common.showToast("'X' is won", context);
+            if(singleOrDuo.equals("single")){
+                Common.alertBox("single", choosedMark, "x", context);
+            }else{
+                Common.alertBox("duo", "", "x", context);
+            }
             winningCountX++;
             Log.d("x", "won"+winningCountX);
             xScoreTv.setText(Integer.toString(winningCountX));
             resetGame(isFromRandom);
         } else if (winningMark.equals("o")) {
             Common.showToast("'O' is won", context);
+            if(singleOrDuo.equals("single")){
+                Common.alertBox("single", choosedMark, "o", context);
+            }else{
+                Common.alertBox("duo", "", "o", context);
+            }
             winningCountO++;
             Log.d("o", "won"+winningCountO);
             oScoreTv.setText(Integer.toString(winningCountO));
             resetGame(isFromRandom);
         } else if (winningMark.equals("tie")) {
             Common.showToast("Game Tied", context);
+            Common.alertBox("tie", "", "", context);
             tiedCount++;
             Log.d("game", "tie");
             tiesTv.setText(Integer.toString(tiedCount));
