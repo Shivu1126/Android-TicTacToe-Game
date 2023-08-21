@@ -1,7 +1,7 @@
 # TicTacToe-Game
 
 ## Gameplay
-**- 1.The game starts with an empty 3x3 grid.**
+**1.The game starts with an empty 3x3 grid**
 **2.Players take turns to enter their moves.**
 **3.Input validation to ensure proper moves.**
 **4.If no player gets three in a row and the grid is full, the game ends in a draw.**
