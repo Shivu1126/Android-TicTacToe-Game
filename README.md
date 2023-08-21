@@ -2,8 +2,10 @@
 
 ## Gameplay
 - The game starts with an empty 3x3 grid.
+- SIngle player and double player.
 - Players take turns to enter their moves.
 - Input validation to ensure proper moves.
+- Scores are monitored.
 - If no player gets three in a row and the grid is full, the game ends in a draw.
 - Clear and user-friendly interface.
 
