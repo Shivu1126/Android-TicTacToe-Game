@@ -1,6 +1,6 @@
-#TicTacToe-Game
+# TicTacToe-Game
 
-##Gameplay
+## Gameplay
 
 **The game starts with an empty 3x3 grid.**
 **Players take turns to enter their moves.**
@@ -8,9 +8,9 @@
 **If no player gets three in a row and the grid is full, the game ends in a draw.**
 **Clear and user-friendly interface.**
 
-##ScreenShots
+## ScreenShots
 
-##Contributions
+## Contributions
 
 **Contributions to this repository are welcome! If you find any bugs or want to add new features, feel free to open an issue or create a pull request.**
 
